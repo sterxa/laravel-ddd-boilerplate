@@ -12,8 +12,10 @@
 */
 
 
-//$app = new Illuminate\Foundation\Application($_ENV['APP_BASE_PATH'] ?? dirname(__DIR__));
-$app = new \App\Application($_ENV['APP_BASE_PATH'] ?? dirname(__DIR__));
+use App\Application;
+
+$app = (new Application($_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)))
+    ->useAppPath('src/App');
 
 /*
 |--------------------------------------------------------------------------

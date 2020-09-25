@@ -1807,16 +1807,16 @@
         },
         {
             "name": "sterxa/laravel-ddd-helper",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sterxa/laravel-ddd-helper.git",
-                "reference": "4529f5e0683190a14be396aadff1013e4e1bd410"
+                "reference": "883df9b562baa48b435df49d87ad1959ac1f74a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sterxa/laravel-ddd-helper/zipball/4529f5e0683190a14be396aadff1013e4e1bd410",
-                "reference": "4529f5e0683190a14be396aadff1013e4e1bd410",
+                "url": "https://api.github.com/repos/sterxa/laravel-ddd-helper/zipball/883df9b562baa48b435df49d87ad1959ac1f74a2",
+                "reference": "883df9b562baa48b435df49d87ad1959ac1f74a2",
                 "shasum": ""
             },
             "require": {
@@ -1850,7 +1850,7 @@
             ],
             "description": "Useful Artisan commands to help Laravel apps that utilizes Domain Driven Design.",
             "homepage": "https://github.com/sterxa/laravel-ddd-helper",
-            "time": "2020-09-25T17:34:40+00:00"
+            "time": "2020-09-25T18:11:16+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
