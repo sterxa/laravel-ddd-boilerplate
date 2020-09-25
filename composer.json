@@ -13,7 +13,7 @@
         "php": "^7.4",
         "ext-json": "*",
         "laravel/framework": "^8.0",
-        "sterxa/laravel-ddd-helper": "^1"
+        "sterxa/laravel-ddd-helper": "^1.2"
     },
     "config": {
         "optimize-autoloader": true,
