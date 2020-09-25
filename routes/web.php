@@ -1,5 +1,5 @@
 <?php
 
-\Illuminate\Support\Facades\Route::get('/', function () {
-   dd(1);
+\Illuminate\Support\Facades\Route::get('/', function (\Illuminate\Http\Request $request) {
+   dd($request);
 });
